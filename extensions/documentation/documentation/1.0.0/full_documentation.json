@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "01/01/2021 10:49:14 PM"
+    "x-generation-date": "01/01/2021 11:31:55 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -27,11 +27,7 @@
       "description": "Development server"
     },
     {
-      "url": "YOUR_STAGING_SERVER",
-      "description": "Staging server"
-    },
-    {
-      "url": "YOUR_PRODUCTION_SERVER",
+      "url": "https://strapiatlas.herokuapp.com",
       "description": "Production server"
     }
   ],
