@@ -2,7 +2,7 @@
   "name": "strapi-atlas",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Strapi Hosted on Heroku and MongoDB Atlas",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -11,19 +11,19 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "strapi": "3.4.1",
-    "strapi-admin": "3.4.1",
-    "strapi-connector-mongoose": "3.4.1",
-    "strapi-plugin-content-manager": "3.4.1",
-    "strapi-plugin-content-type-builder": "3.4.1",
-    "strapi-plugin-documentation": "^3.4.1",
-    "strapi-plugin-email": "3.4.1",
-    "strapi-plugin-upload": "3.4.1",
-    "strapi-plugin-users-permissions": "3.4.1",
-    "strapi-utils": "3.4.1"
+    "strapi": "3.4.6",
+    "strapi-admin": "3.4.6",
+    "strapi-connector-mongoose": "3.4.6",
+    "strapi-plugin-content-manager": "3.4.6",
+    "strapi-plugin-content-type-builder": "3.4.6",
+    "strapi-plugin-documentation": "^3.4.6",
+    "strapi-plugin-email": "3.4.6",
+    "strapi-plugin-upload": "3.4.6",
+    "strapi-plugin-users-permissions": "3.4.6",
+    "strapi-utils": "3.4.6"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "pranay_teja"
   },
   "strapi": {
     "uuid": "bef89a9f-e440-49ec-90aa-406535e8c317"
