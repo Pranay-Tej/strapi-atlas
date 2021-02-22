@@ -531,31 +531,34 @@
             "type": "string"
           },
           "reviews": {
-            "required": [
-              "id",
-              "rating"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "rating": {
-                "type": "integer"
-              },
-              "review": {
-                "type": "string"
-              },
-              "reader": {
-                "type": "string"
-              },
-              "published_at": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "rating"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "rating": {
+                  "type": "integer"
+                },
+                "review": {
+                  "type": "string"
+                },
+                "reader": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -645,7 +648,10 @@
             "type": "string"
           },
           "reviews": {
-            "type": "string"
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           },
           "author": {
             "type": "string"

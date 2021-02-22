@@ -593,7 +593,10 @@
                   "type": "string"
                 },
                 "reviews": {
-                  "type": "string"
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
                 },
                 "author": {
                   "type": "string"

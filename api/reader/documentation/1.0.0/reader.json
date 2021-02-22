@@ -541,7 +541,10 @@
                   "type": "string"
                 },
                 "books": {
-                  "type": "string"
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
                 },
                 "reader": {
                   "type": "string"
