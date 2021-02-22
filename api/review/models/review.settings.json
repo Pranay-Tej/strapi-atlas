@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviews",
+  "info": {
+    "name": "review",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "rating": {
+      "type": "integer",
+      "required": true
+    },
+    "review": {
+      "type": "richtext",
+      "required": false
+    },
+    "reader": {
+      "model": "reader",
+      "via": "reviews"
+    }
+  }
+}

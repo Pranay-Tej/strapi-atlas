@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "book_series",
+  "info": {
+    "name": "Book Series",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "author": {
+      "via": "book_series",
+      "model": "author"
+    },
+    "books": {
+      "collection": "book",
+      "via": "book_series"
+    }
+  }
+}

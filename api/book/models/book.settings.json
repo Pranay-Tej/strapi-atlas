@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "books",
+  "info": {
+    "name": "Book",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "reviews": {
+      "collection": "review"
+    },
+    "author": {
+      "via": "books",
+      "model": "author"
+    },
+    "book_series": {
+      "via": "books",
+      "model": "book-series"
+    }
+  }
+}
